@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <section class="finder">
+        <h1 class="title">IP Address Tracker</h1>
+
+        <div class="search-bar">
+          <input type="search" class="search-bar__input" placeholder="Search for any IP address or domain">
+          <button class="search-bar__btn" type="button"></button>
+        </div>
+        
+        <div class="info">
+          <div class="info__block">
+            <h2 class="info__block-subtitle">IP Address</h2>
+            <h3 class="info__block-title" id="ip"></h3>
+          </div>
+          <div class="info__block">
+            <h2 class="info__block-subtitle">Location</h2>
+            <h3 class="info__block-title" id="location"></h3>
+          </div>
+          <div class="info__block">
+            <h2 class="info__block-subtitle">Timezone</h2>
+            <h3 class="info__block-title">UTC <span id="timezone"></span></h3>
+          </div>
+          <div class="info__block">
+            <h2 class="info__block-subtitle">ISP</h2>
+            <h3 class="info__block-title" id="isp"></h3>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="map"></section>
+    </main>
+  </div>
+</body>
+</html>
